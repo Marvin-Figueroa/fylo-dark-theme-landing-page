@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  font-size: 1.6rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-link {
+  color: #ccc;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
