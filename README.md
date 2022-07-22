@@ -35,9 +35,11 @@ This is my solution to the [Fylo dark theme landing page challenge on Frontend M
 
 - Semantic HTML
 - CSS Flexbox
+- CSS Grid
 - Media Queries
-- Mobile-First approach
-- BEM
+- Desktop-First approach
+- Basic DOM Manipulation
+- Basic Event Handling
 
 ## Author
 
